@@ -1,4 +1,4 @@
-            stage('DeployToStaging') {
+stage('DeployToStaging') {
             when {
                 branch 'master'
             }
